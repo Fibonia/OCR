@@ -92,7 +92,7 @@ def transcript_call(url1,req,ourclass=0):
                   lastname = name.partition(',')[0]
                   lvl = "N"
               elif ourbool == "AS":
-                firstname = lines[3].split(' ')[0]
+                firstname = lines[3].split(' ')[1]
                 lastname = lines[3].split(' ')[-1]
                 lvl = [lines[x].split(' ')[-1] for x in range(0,len(lines)) if  "Level " in lines[x]]
                 break;
