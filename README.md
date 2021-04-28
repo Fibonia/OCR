@@ -1,5 +1,5 @@
-# Transcript
-Repo for transcript detection system
+# OCR
+Repo for OCR detection system
 Before running the .py code, run:
 ```
 !apt-get install ocrmypdf -q
